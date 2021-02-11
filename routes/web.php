@@ -20,3 +20,5 @@ Route::get('/', function () {
 
 
 Route::get('/smartbot','BotController@smartbot');
+Route::get('/bye','BotController@bye');
+Route::get('/greeting','BotController@greeting');
